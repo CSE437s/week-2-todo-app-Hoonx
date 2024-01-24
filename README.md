@@ -1,50 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/hVfz7S7L)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13518474&assignment_repo_type=AssignmentRepo)
-# CSE 437s Week 2: Build a To-Do App
+I ran the server with: mongod --dbpath ~/mongodb_data
+(Of course, after creating a directory for the server data and installing mongoose)
+I ran the website with: npm start
 
-This assignment challenges you to design and build a simple to-do application using your chosen tech stack. The app should allow users to create, manage, and track their tasks. Find a way to impress us.
+Functionalities I couldn't implement due to time limitations (I was initially getting errors from backend to frontend connections which cost me a lot of time) include: editing todo's that are already uploaded to the database, and toggling to check completion.
 
-## Objectives:
-
-- Show off what you are best at. Focus on the area of development in which you can make the most impact. If you are good at frontend, spend time making the UI look awesome. If good at backend, focus on a robust API.
-- Apply user interface (UI) design principles to create a clear and intuitive interface.
-- Implement effective data storage and retrieval mechanisms.
-- Gain experience with testing and debugging your code.
-
-## Requirements:
-
-- **Effort:** Don't stress, we want to see what you can create, regardless of how close you come to a full app. There is no grade, but an attempt is mandatory.
-- **Visibility:** Your effort must be visible on a frontend somewhere, even if it is raw JSON with raw HTML buttons (Sorry BE friends, this is to make evaluation practical).
-- **Hosting:** [Use Vercel](https://vercel.com/guides/deploying-react-with-vercel).
-- **Time Limit:** 2 Hours
-
-## Considerations:
-
-- **Development time:** Pick the framework you are most familiar with, even if not listed below. You'll want to be as fast and efficient as possible.
-
-## I'm Lost:
-
-- [CSE 330 Website](https://classes.engineering.wustl.edu/cse330/index.php?title=CSE_330_Online_Textbook_-_Table_of_Contents)
-
-### I'm Totally Lost and Afraid:
-
-- **HTML/CSS/JavaScript:** Use these and build something pretty.
-
-### I'm Afraid of Databases, but have FE Familiarity:
-
-- **VueJS, or ReactJS:** Frontend frameworks for responsive sites (consider using with Vuetify and MUI respectively)
-
-### I Don't Know how to FE, nor do I want to
-
-- **Node.js with Express:** A lightweight and flexible backend framework for handling server-side logic and API requests. Use with Firebase or MongoDB.
-- **NestJs:** Another lightweight node based solution. Use with Firebase or MongoDB
-- **Django Rest:** A python based REST API framework. Use with SQLite.
-- **Flask:** Lightweight Python, better than DJango at NoSQL. Use with Firebase or MongoDB.
-
-### I can do this!
-
-- **NuxtJS:** VueJs/Node fullstack framework. Use with Google Firebase or MongoDB.
-- **NextJS:** ReactJs/Node fullstack framework. Use with Google Firebase or MongoDB.
-- **Any Templating Framework:** Anything you have familiarity with and have built before.
-- **Django:** Python based fullstack framework (HTML templating, not responsive) use with SQLite
-- **Laravel:** PHP based fullstack framework (HTML templating, not responsive) use with SQLite
+What Works: Adding todo's and deleting todo's.
